@@ -23,9 +23,9 @@ We firstly needed to compile the necessary data from tables in the database, gat
 
 As we are predicting a numeric output, we tested three regression modelling approaches, namely:
 
-Linear Regression
-Decision Tree
-Random Forest
+* Linear Regression
+* Decision Tree
+* Random Forest
 
 ## Results
 
