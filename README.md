@@ -2,6 +2,14 @@
 
 Project_Link: https://prajivinn.github.io/2022/01/18/predicting-customer-loyalty.html
 
+
+## Key Definition
+The loyalty score metric measures the % of grocery spend (market level) that each customer allocates to the client vs. all of the competitors.
+
+Example 1: Customer X has a total grocery spend of $100 and all of this is spent with our client. Customer X has a loyalty score of 1.0
+
+Example 2: Customer Y has a total grocery spend of $200 but only 20% is spent with our client. The remaining 80% is spend with competitors. Customer Y has a customer loyalty score of 0.2
+
 ## Context
 
 Our client, a grocery retailer, hired a market research consultancy to append market level customer loyalty information to the database. However, only around 50% of the client’s customer base could be tagged, thus the other half did not have this information present.
@@ -47,9 +55,3 @@ While predictive accuracy was relatively high - other modelling approaches could
 From a data point of view, further variables could be collected, and further feature engineering could be undertaken to ensure that we have as much useful information available for predicting customer loyalty
 
 
-## Key Definition
-The loyalty score metric measures the % of grocery spend (market level) that each customer allocates to the client vs. all of the competitors.
-
-Example 1: Customer X has a total grocery spend of $100 and all of this is spent with our client. Customer X has a loyalty score of 1.0
-
-Example 2: Customer Y has a total grocery spend of $200 but only 20% is spent with our client. The remaining 80% is spend with competitors. Customer Y has a customer loyalty score of 0.2
